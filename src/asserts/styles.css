@@ -1,0 +1,40 @@
+* {
+    color: black;
+}
+
+.card {
+    width: 450px;
+    height: 60vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container-info {
+    height: 50% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.info-img {
+    display: flex;
+    align-items: flex-end;
+    height: 50%;
+    background: yellow;
+    
+}
+
+.title {
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+
+.temperature-text {
+    font-size: 3rem;
+    margin: 0 20px;
+}
